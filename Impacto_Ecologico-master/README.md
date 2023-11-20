@@ -1,0 +1,12 @@
+# Impacto_Ecologico
+
+Los gobiernos y las compañías en todo el mundo se están preocupando cada vez más por el impacto ecológico del carbono (las liberaciones anuales de dióxido de carbono en la atmósfera), debido a los edificios que consumen diversos tipos de combustibles para obtener calor, los vehículos que queman combustibles para producir energía, y demás. Muchos científicos culpan a estos gases de invernadero por el fenómeno conocido como calentamiento global. Para esta actividad Usted deberá crear un repositorio privado en GitHub y añadir como desarrollador del proyecto al docente; y en este deberá subir un pequeño programa que permita el cálculo del impacto ecológico del carbono. Para esto Usted deberá:
+
+Consultar sitios Web que expliquen cómo calcular el impacto ecológico del carbono.
+Cree tres pequeñas clases no relacionadas por herencia: las clases Edificio, Auto y Bicicleta y proporcione a cada clase ciertos atributos y comportamientos apropiados que sean únicos, que no tengan en común con otras clases.
+Escriba la interfaz ImpactoEcologico con un método obtenerImpactoEcologico de acuerdo con lo que Usted ha consultado.
+Haga que cada una de sus clases implementen a esa interfaz, de modo que su método obtenerImpactoEcologico calcule el impacto ecológico del carbono apropiado para esa clase.
+Escriba una aplicación que cree objetos de cada una de las tres clases y coloque referencias a esos objetos en un ArrayList<ImpactoEcologico>; después itere a través del objeto ArrayList, invocando en forma polimórfica el método obtenerImpactoEcologico de cada objeto. Tome en consideración que, además de su impacto ecológico; imprimir para cada objeto cierta información de identificación.
+Por cada punto de la tarea que usted vaya completando al desarrollar la actividad (5 en total) usted deberá de realizar un commit en el repositorio de GitHub para evidenciar el avance del proyecto.
+Una vez que haya subido el programa finalizado en GitHub usted deberá descargar su proyecto desde esa plataforma en formato zip y subirlo al entorno virtual.
+Adicionalmente a este archivo zip, usted deberá subir un archivo pdf con sus nombres completos, su número de cédula, el link hacia el repositorio de GitHub dónde se encuentre alojado el repositorio del trabajo y; a modo de referencia, el link de las páginas de dónde obtuviste la información sobre como calcular el impacto ecológico del carbono.
